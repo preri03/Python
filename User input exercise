@@ -1,0 +1,39 @@
+# #WAP to find the simple interest with help of user input
+# p= eval(input("Enter principal amount: "))
+# r = eval(input("Enter the rate: "))
+# t = eval(input("Enter the time: "))
+# si = (p*r*t)/100
+# print(si)   
+
+# WAP to find the compound interest with help of user input
+# p= eval(input("Enter principal amount: "))
+# r = eval(input("Enter the rate: "))
+# t = eval(input("Enter the time: "))
+# n= eval(input("Enter the  number of years: "))
+# Amount = (p*(1+(r/100)**n*t)
+# ci= amount - p
+# print(Amount)
+# print(ci)
+
+#WAP to convert celsius into Fahrenheit
+# Celsius = float(input("Enter celsius"))
+# Fahrenheit= (Celsius*1.8) +32
+# print (Fahrenheit)
+
+#WAP to swap two variables
+# x = int(input("Enter first variable"))
+# y = int(input("Enter second variable"))
+# x,y = y,x
+# print ("the value of x:",x)
+# print ("the value of y:",y)
+
+#WAP to find the percentage of 5 subjects with the help of function and user input
+def myfunc():
+    Eng= float(input("Enter English marks"))
+    Hindi= float(input("Enter Hindi marks"))
+    SST= float(input("Enter SST marks"))
+    Sci= float(input("Enter Science marks"))
+    Maths= float(input("Enter Maths marks"))
+    Marks= (Eng+Hindi+SST+Sci+Maths)/100
+    print(Marks)
+myfunc()
