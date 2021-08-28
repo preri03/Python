@@ -1,0 +1,39 @@
+#WAP to onvert the only first letter of string from lower to Upper case
+txt= "prerita"
+cap= txt.capitalize()
+print(cap)
+#Output#
+Prerita
+
+#WAP to show a difference between replace function and swapping
+txt="Apple, Banana"
+rep=txt.replace("Apple","Guava")
+swp=txt.swapcase()
+print(rep)
+print(swp)
+#Output#
+Guava, Banana
+aPPLE, bANANA
+
+#WAP to convert Km to MM by taking user input
+a = int(input("Enter value in km: "))
+b = int(input("Enter value in mm: "))
+convert = a * b
+print(convert)
+#Output#
+Enter value in km: 2
+Enter value in mm: 1000000
+2000000
+
+#WAP to calculate the volume of cuboid
+length = float(input("Enter lenght of cuboid: "))
+width = float(input("Enter width of cuboid: "))
+height = float(input("Enter height of cuboid: "))
+volume = length*width*height
+print(volume)
+#output#
+Enter lenght of cuboid: 8.5
+Enter width of cuboid: 3.5
+Enter height of cuboid: 3.5
+104.125
+
